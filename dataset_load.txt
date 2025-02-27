@@ -1,0 +1,5 @@
+Data format	          Loading script	Example
+CSV & TSV	          csv	            load_dataset("csv", data_files="my_file.csv")
+Text files	          text	            load_dataset("text", data_files="my_file.txt")
+JSON & JSON Lines	  json	            load_dataset("json", data_files="my_file.jsonl")
+Pickled DataFrames	  pandas	        load_dataset("pandas", data_files="my_dataframe.pkl")
